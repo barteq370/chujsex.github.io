@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: rgb(63,94,251);
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+}
+#main{
+    background-color: #ffffff55;
+    margin: auto;
+    height: 300vh;
+}
+#menu button{
+    background-color: red;
+    float: left;
+    width: 25%;
+    line-height: 5vh;
+    font: 1.5rem sans-serif;
+    margin-top: 1vh;
+    border-top: 0.25vh solid white; border-bottom: 0.25vh solid white;
+    border-left: 0.15vw solid white; border-right: 0.15vw solid white;
+    background-color: #ffffff55;
+    
+}
+#menu button:hover{
+    background-color: #ffffff88; 
+    transition: 0.2s;
+}
+#main #logo{
+    width: 40vw;
+    margin: auto;
+    display: block;
+}
+#zgloszenieForm{
+    height: 50vh;
+    margin:auto;
+    padding-top: 2vh; padding-bottom: 2vh;
+    padding-left: 1vw; padding-right: 1vw;
+    margin-top: 15vh;
+	border:1px solid white; border-radius:5px;
+    border-width: 0.25vh 0.15vw;
+    background-color: #ffffff55;
+}
+#zgloszenieForm p{
+    font: 2vh/2.5vw sans-serif; 
+    text-align: center;
+}
+#zgloszenieForm input, #zgloszenieForm textarea{    
+    margin: auto;
+    display: block;
+    text-align: center;
+}
+#zgloszenieForm input[type=text]{
+    width: 10vw;
+    height: 2.5vh;
+    border: 1px solid #333333bb;
+    border-width: 0.21vh 0.09vw;
+    font: 1.5vh sans-serif;
+}
+#zgloszenieForm select, #zgloszenieForm option{
+    width: 5vw;
+    height: 2.5vh;
+    margin: 0 auto 1vh;
+    display: block;
+    border: 1px solid #333333bb;
+    border-width: 0.21vh 0.09vw;
+    font: 1.5vh sans-serif;
+}
+#zgloszenieForm textarea{
+    width: 12vw;
+    height: 7.5vh;
+    resize: none;
+    border: 1px solid #333333bb;
+    border-width: 0.21vh 0.09vw;
+    padding: 0.2vh 0.1vw;
+    font: 1.5vh sans-serif;
+}
+#zgloszenieForm input[type=submit]{
+    padding: 0.5vh 1vw;
+    border: 1px solid #333333bb;
+    background-color: #ffffff88;
+    margin: 1vh auto;
+    border-width: 0.21vh 0.09vw;
+    display: block;
+    font: 1.5vh sans-serif;
+}
+#main img{
+    margin: 1vh auto;
+    display: block;
+}
+#film{
+    margin: 1vh auto;
+    display: block;
+}
+#tekstPowitalny{
+    color: white;
+    font-family: Roboto;
+    padding: 7vh 1vw 2vh;
+}
+@media (min-width: 0px) {
+    #zgloszenieForm{width: 40vw; height: 45vh;} 
+    #main{width: 100vw;}
+    #zgloszenieForm input[type=text]{
+        width: 30vw;
+        margin: 1vh auto;
+    }
+    #zgloszenieForm input[type=submit]{
+        width: 25vw;
+        margin: 1vh auto;
+    }
+    #zgloszenieForm textarea{
+        width: 40vw;
+        margin: 1vh auto;
+    }
+    #zgloszenieForm select{
+        width: 12vw;
+    }
+}
+@media (min-width:1000px) {
+    #zgloszenieForm{width: 30vw; height: 47.5vh;} 
+    #main{width: 80vw;}
+    #zgloszenieForm input[type=text]{
+        width: 20vw;
+        margin: 1vh auto;
+    }
+    #zgloszenieForm input[type=submit]{
+        width: 15vw;
+        margin: 1vh auto;
+    }
+    #zgloszenieForm textarea{
+        width: 30vw;
+        margin: 1vh auto;
+    }
+    #zgloszenieForm select{
+        width: 8vw;
+    }
+}
+@media (min-width:1600px) {
+    #zgloszenieForm{width: 15vw; height: 50vh;} 
+    #main{width: 40vw;}
+    #zgloszenieForm input[type=text]{
+        width: 10vw;
+        margin: 1vh auto;
+    }
+    #zgloszenieForm input[type=submit]{
+        width: 8vw;
+        margin: 1vh auto;
+    }
+    #zgloszenieForm textarea{
+        width: 12vw;
+        margin: 1vh auto;
+    }
+    #zgloszenieForm select{
+        width: 5vw;
+    } 
+}
